@@ -1,4 +1,4 @@
 #!/bin/sh
 
 docker rm /nodered
-docker build -t nneves-nodered .
+docker build --no-cache -t nneves-nodered .
